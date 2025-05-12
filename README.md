@@ -1,4 +1,35 @@
 # ProjetosVscode
 TulioLemos
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Simples</title>
+  <link rel="stylesheet" href="readme.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Meu Site</h1>
+    <p>Esse é um exemplo básico de HTML e CSS.</p>
+  </header>
 
-<a href="https://tulioxz.github.io/ProjetosVscode/LandingPage03/" targed> Landing Page Basica.</a>
+  <main>
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Sou um desenvolvedor web em aprendizado, explorando HTML, CSS e muito mais.</p>
+      <a href="https://tulioxz.github.io/ProjetosVscode/LandingPage03/" targed> Landing Page Basica.</a>
+    </section>
+    <section>
+      <h2>Contato</h2>
+      <p>Email: exemplo@dominio.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tulio Lemos</p>
+  </footer>
+</body>
+</html>
+
+
