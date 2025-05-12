@@ -11,13 +11,13 @@ TulioLemos
 <body>
   <header>
     <h1>Bem-vindo ao Meu Site</h1>
-    <p>Esse é um exemplo básico de HTML e CSS.</p>
+    <p>Sou um desenvolvedor web em aprendizado, explorando HTML, CSS e muito mais.</p>
   </header>
 
   <main>
     <section>
       <h2>Sobre Mim</h2>
-      <p>Sou um desenvolvedor web em aprendizado, explorando HTML, CSS e muito mais.</p>
+      <p>Alguns projetos de aprendizado abaixo!</p>
       <a href="https://tulioxz.github.io/ProjetosVscode/LandingPage03/" target="_blank"> Landing Page Basica.</a>
     </section>
     <section>
