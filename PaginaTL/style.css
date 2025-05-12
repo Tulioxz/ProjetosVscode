@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+.Titulo-Principal {
+    padding: 10px;
+    color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    position: relative;
+    padding-left: 95px;
+}
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.produtos:hover {
+    text-decoration: underline;
+}
+
+
+.dropbtn {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    background: linear-gradient(#5687a6da, #101d38da);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out, visibility 0.3s;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(#5687A6, #020E26);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.p-biografia1 {
+    margin-top: -1.5rem;
+    margin-left: 3rem;
+    line-height: 1.2;
+    text-indent: 10px;
+}
+
+.p-biografia2 {
+    margin-top: -1.5rem;
+    margin-left: 3rem;
+    line-height: 1.2;
+    text-indent: 10px;  
+}
+
+.containerimg {
+    display: flex;
+    flex-direction: row;
+}
+
+.projetoimg1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 30rem;
+    margin-left: 3rem;
+}
+
+.projetoimg2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 30rem;
+    margin-right: 3rem;
+}
+
+#imgprojeto {
+    max-width: 50rem;
+    max-height: 30rem;
+}
+
+#imgprojeto:hover{
+    transform: scale(1.1);
+}
+
+#imgprojeto2 {
+    max-width: 50rem;
+    max-height: 30rem;
+}
+
+#imgprojeto2:hover{
+    transform: scale(1.1);
+}
+
+#nome {
+    font-size: 80px;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+
+.minicurriculo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(209, 230, 248);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.336) 0px 20px 50px -25px;
+}
+
+.titulo {
+    margin-bottom: 1rem;
+    font-size: 55px;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+#minicurriculo-title {
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.titulo-formacao {
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.box-formacao {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+#titulo-formacao {
+    font-size: 30px;
+}
+
+.tipo-formacao {
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #000000aa;
+}
+
+.onde-formou {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #000000;
+}
+
+
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.desc-habilidades {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.container-habilidades {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+#habilidade1 {
+    background-color: #376eec9c;
+    border-radius: 30px;
+    padding: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+#habilidade2 {
+    background-color: #ec37379c;
+    border-radius: 30px;
+    padding: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+#habilidade3 {
+    background-color: #79ec379c;
+    border-radius: 30px;
+    padding: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.projetos {
+    display: inline-block;
+    flex-direction: row;
+
+}
+
+#projetos {
+    padding-left: 45px;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    padding-top: 145px;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+#card1 {
+    background-image: url("../img/pc.jpg");
+
+}
+
+#card2 {
+    background-image: url("../img/pessoas.jpg");
+}
+
+.projeto-card {
+    height: 340px;
+    width: 4000px;
+    padding: 20px;
+}
+
+.conteudo-box {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(209, 230, 248);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(51, 160, 233, 0.336) 0px 20px 50px -25px;
+    padding: 20px 20px 25px 25px;
+}
+
+.card-titulo {
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 2px;
+
+
+}
+
+.conteudo-card {
+    padding-top: 5px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.tipe {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.text-tipe {
+    background-color: #da651c98;
+    border-radius: 30px;
+    padding: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.text-tipe2 {
+    background-color: #376eec9c;
+    border-radius: 30px;
+    padding: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(209, 230, 248);
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.336) 0px 20px 50px -25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+#contato {
+    padding: -1rem;
+}
+
+.icons-contato {
+    display: flex;
+    align-items: center;
+}
+
+
+.img1 img {
+    width: 30px;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.img1:hover{
+    transform: scale(1.1);
+}
+
+.img2 img {
+    width: 30px;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.img2:hover{
+    transform: scale(1.1);
+}
+
+.img3 img {
+    width: 30px; 
+    height: auto;
+    margin: 0.5rem;
+}
+
+.img3:hover{
+    transform: scale(1.1);
+}
+
+
+.img {
+    height: 50px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.texto-rodape {
+    color: white;
+}

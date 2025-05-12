@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul, nav{
+    list-style: none;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+header nav{
+    display: flex;
+    gap: 1rem;
+}
+
+header img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+header li a{
+    color: #191c03;
+}
+
+/*Hero*/
+
+.hero{
+    background-image: url(img/pexels-fotios-photos-16104977.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.hero h3{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.hero .btn{
+    background-color: #fff;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 20px 50px 20px 50px;
+    text-transform: uppercase;
+}   
+
+@media (max-width: 700px) {
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .hero h3{
+        font-size: 1.5rem;
+    }
+}
+
+/*Conheça o hotel*/
+
+.conhecah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px 100px 50px;
+}
+
+.conhecah h3{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #191c03;
+    text-align: center;
+}
+
+.conhecah p{
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: #191c03;
+    text-align: center;
+}
+
+.conhecah hr{
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.conhecah .grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conhecah .grid li{
+    height: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.conhecah .grid li.small{
+    flex-basis: 40%;
+}
+
+.conhecah .grid li.large{
+    flex-basis: 60%;
+}
+
+@media (max-width: 700px) {
+    .conhecah .grid li.small, .conhecah .grid li.large{
+        flex-basis: 100%;
+    }
+}
+
+/*Caracteristicas*/
+
+.caract {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px 100px 50px;
+    background-color: #191c03;
+    margin-top: 1rem;
+}
+
+.caract h3{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.caract p{
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.caract hr{
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.caract img{
+    width: 50%;
+}
+
+.caract .grid {
+    width: 100%;
+    display: flex;
+}
+
+.caract .grid li {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.caract .grid li p{
+    color: #c3c63b;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.caract .grid li h4{
+    font-size: 1.5rem;
+    color: #c3c63b;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 850px) {
+    .caract .grid {
+        flex-direction: column;
+    }
+}
+
+/*NewssLetter*/
+
+.newslatter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+
+.newslatter h3{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #c3c63b;;
+    text-align: center;
+}
+
+.newslatter p{
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: #c3c63b;;
+    text-align: center;
+}
+
+.newslatter hr{
+    width: 200px;
+    height: 2px;
+    background-color: #c3c63b;;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.newslatter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.newslatter input{
+    padding: 15px;
+    border: 1px solid #c3c63b;
+    border-radius: 5px;
+    margin-right: 15px;
+    width: 40rem;
+}
+
+.newslatter button{
+    padding: 15px;
+    color: #191c03;
+    background-color: #c3c63b;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.newslatter button:hover{
+    opacity: 0.7;
+    padding: 16px;
+}
+
+@media (max-width: 700px) {
+    .newslatter input{
+        flex-basis: 100%;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+}
+
+
+
+
+
+

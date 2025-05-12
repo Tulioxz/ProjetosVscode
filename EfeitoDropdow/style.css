@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.dropdow-menu{
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 0 0 2px black;
+    border-radius: 10px;
+    display: none;
+}
+
+.dropdow-menu a{
+    display: block;
+    color: aqua;
+}
+
+.dropdow:hover .dropdow-menu{
+    display: block;
+}

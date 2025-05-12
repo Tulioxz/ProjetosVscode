@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lb1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background: linear-gradient(-45deg, #d675b9, #8f1981, #3f013d, #aa1d9a);
+    background-size: 400% 400%;
+    animation: animarFundo 10s ease infinite;
+}
+
+.lb1 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 1.6;
+    text-align:center;
+    word-spacing: 7px;
+    text-indent: 10px;
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse */
+    white-space: wrap; /* Impede que o texto quebre linha */
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ce18db;
+}
+
+.kk{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ce18db;
+}
+
+p .kk:hover{
+    text-shadow: 
+    0 0 5px rgb(253, 1, 199), 
+    0 0 10px rgb(253, 1, 199), 
+    0 0 20px #ce18db, 
+    0 0 40px #ce18db, 
+    0 0 80px #ce18db;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.lb2{
+    height: 100vh;
+    background-image: url(Img/imgrafa2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lb3{
+    height: 100vh;
+    background-image: url(Img/imgrafa1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@keyframes animarFundo {
+     0% {
+            background-position: 0% 50%;
+ }
+    50% {
+            background-position: 100% 50%;
+}
+    100% {
+        background-position: 0% 50%;
+}
+}

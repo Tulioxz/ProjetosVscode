@@ -1,0 +1,156 @@
+/*Reset CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+    font-family: "Oswald", sans-serif;
+}
+
+.body{
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    align-items: center;
+    text-align: center;
+    border: 3px groove gray;
+    border-radius: 10px 0px 10px 0px;
+    font-family: "Roboto Slab", serif;
+    color:goldenrod;
+    padding-top: 1rem;
+}
+
+/*Inputs*/
+
+input[type="text"] {
+    border: 2px solid;
+    border-radius: 0px 10px 0px 10px;
+    width:50vw ;
+    height:2.5vh ;
+    text-align: center;
+}
+input[type="password"] {
+    border: 2px solid;
+    border-radius: 0px 10px 0px 10px;
+    width:50vw ;
+    height:2.5vh ;
+    text-align: center;
+}
+
+input[type="email"] {
+    border: 2px solid;
+    border-radius: 0px 10px 0px 10px;
+    width:50vw ;
+    height:2.5vh ;
+    text-align: center;
+}
+
+input[type="date"] {
+    border: 2px solid;
+    border-radius: 0px 10px 0px 10px;
+    width:50vw ;
+    height:2.5vh ;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: block;
+    appearance: none; /* Remove o estilo padrão */
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(143, 97, 141); /* Cor quando selecionado */
+    border-color: rgb(143, 97, 141);
+}
+
+input[type=radio]:hover {
+    width: 16px;
+    height: 16px;
+}
+
+input[type="checkbox"] {
+    display: block;
+    appearance: none; /* Remove o estilo padrão */
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    position: absolute;
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgb(143, 97, 141); /* Cor quando selecionado */
+    border-color: rgb(143, 97, 141);
+}
+
+input[type=checkbox]:hover {
+    width: 16px;
+    height: 16px;
+}
+
+
+/*Legendas Label*/
+
+label[for="nome"], label[for="senha"], label[for="email"], label[for="datanascimento"]{
+    color:goldenrod;
+}
+
+label[for="masculino"], label[for="feminino"], label[for="outro"] {
+    font-size: 1.0rem;
+    font-style: italic;
+    color: violet;
+}
+
+label  {
+    transition: color 0.3s ease-in-out;
+}
+
+label:hover {
+    color: rgb(143, 97, 141);
+    text-decoration: underline;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.generocontainer {
+    width: 10rem;
+    padding: 10px;
+    background: aliceblue; /* Removendo o caractere inválido */
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.generocontainer1 {
+    background: aliceblue; /* Removendo o caractere inválido */
+    border-radius: 30px;
+    display: inline-block;
+    width: 10rem;
+    padding: 10px;
+}
+
+.textarea1{
+    display: inline;
+    margin-top: 10px;
+
+}
+
+button {
+    width: 10rem;
+    height: 2rem;
+    background-color: aliceblue; 
+    border: solid 2px; 
+    margin-left: 5px;"
+}

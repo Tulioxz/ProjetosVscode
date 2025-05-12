@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s linear;
+}
+
+body {
+    background-image: url('img/pexels-pixabay-46798.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+}
+
+header section h2 {
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+    margin: 1.5rem;
+}
+
+header section img {
+    height: 20px;
+    margin: 10px;
+    margin-right: 1rem;
+}
+
+header section img:hover {
+    height: 21px;
+    margin: 11px;
+}
+
+.links {
+    cursor: pointer;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.links a {
+    margin-left: 1rem;
+}
+
+.links a:hover {
+    font-size: 17px;
+}
+
+main section {
+    display: flex;
+    height: 90vh;
+}
+
+main section .title {
+    display: block;
+    width: 40rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 5px;
+    align-self: flex-end;
+    font-size: 5rem;
+    margin: 1.5rem;
+}
+
+main section .container {
+    display: flex;
+    min-width: 50px;
+    margin-bottom: 4rem;
+    margin-right: 1.5rem;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+main section .btn {
+    font-weight: 900;
+    text-align: center;
+    width: 40rem;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    padding: 1.5rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+main section .btn:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+@media screen and (max-width: 914px) {
+    header section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header section h2 {
+        font-size: 60px;
+        margin-top: 60px;
+    }
+    
+
+    .links {
+        display: flex;
+        text-align: center;
+        gap: 30px;
+        flex-direction: column;
+        font-size: 35px;
+    }
+
+    .links a:hover {
+        font-size: 35px;
+    }
+    
+
+    header section img {
+        height: 60px;
+        margin: 30px;
+        padding: 2px;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+
+    header section img:hover {
+        height: 60px;
+        margin: 30px;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main section .title {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        align-self: center;
+        text-align: center;
+        font-size: 3rem;
+        margin: 60px 0px 0px 0px;
+    }
+
+    main section .container {
+        display: flex;
+        margin: 30px 0px 10px 0px;
+        max-width: 20rem;
+        align-self: center;
+    }
+
+
+    main section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+        background-size:auto;
+    }
+
+    
+}
+
+
+
+
+
+

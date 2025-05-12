@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Formulario!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap');</style>
+</head>
+<body>
+    <div class="title">
+    <h1><strong>Meu primeiro Formulario</strong></h1><br>
+    </div>
+    <div class="body">
+        <form action="processar.php" method="post">
+            <!--Campo Tipo Text-->
+            <br><label for="nome">Digite seu nome:</label><br><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite aqui..." required><br><br><hr>
+            <!--Campo Tipo Email-->
+            <br><label for="email">Digite seu email:</label><br><br>
+            <input type="email" id="email" name="email" placeholder="Digite aqui..." required><br><br><hr>
+            <!--Campo Tipo Password-->
+            <br><label for="senha">Digite sua senha:</label><br><br>
+            <input type="password" id="senha" name="senha" placeholder="Digite aqui..." required><br><br><hr>
+            <!--Campo Tipo Date-->
+            <br><label for="datanascimento">Digite sua data de nascimento:</label><br><br>
+            <input type="date" id="data" name="data" required style="margin-left: 5px; width: 10rem;"><br><br><hr>
+            <!--Campo Tipo Radio-->
+            <div class="generocontainer">
+                <label>Gênero:</label><br><br>
+            
+                <label>
+                    <input type="radio" id="masculino" name="gener" value="masculino">
+                    Masculino
+                </label><br>
+            
+                <label>
+                    <input type="radio" id="feminino" name="gener" value="feminino">
+                    Feminino
+                </label><br>
+            
+                <label>
+                    <input type="radio" id="outro" name="gener" value="outro">
+                    Outro
+                </label><br>
+            </div>
+            <hr><br>
+            <!--Campo Tipo Checkbox-->
+            <div class="generocontainer1">
+                <label>Interesses:</label><br><br>
+                <input type="checkbox" id="interesse" name="interesse" value="musica">
+                <label for="musica">Musica</label><br>
+
+                <input type="checkbox" id="interesse" name="interesse" value="esportes">
+                <label for="esportes">Esportes</label><br>
+
+                <input type="checkbox" id="interesse" name="interesse" value="desenhos">
+                <label for="desenhos">Desenhos</label><br>
+
+                <input type="checkbox" id="interesse" name="interesse" value="carros">
+                <label for="carros">Carros</label>
+            </div>
+            <br><br><hr><br>
+            <!--Campo Tipo Select-->
+            <label>Pais Origem:</label>
+            <select id="pais" name="pais" style="margin-left: 5px; padding: 3px; width: 10rem;">
+                <option value="br">Brasil</option>
+                <option value="us">USA</option>
+                <option value="ch">China</option>
+                <option value="ur">Russia</option>
+            </select><br><br>
+            <!--Campo Tipo Text Area-->
+            <div class="textarea1">
+                <label for="comentario">Faça um comentario:</label><br><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea>
+            </div>
+            <br><hr><br>
+            <!--Botão de Envio "submit"-->
+            <button type="submit" style="background-color: aliceblue; border: solid 2px; margin-left: 5px;">Enviar</button>
+            <!--Botão de Reset "reset"-->
+            <button type="reset" style="background-color: aliceblue; border: solid 2px; margin-left: 5px;">Reset</button>
+        </form>
+    </div>
+</body>
+</html> 
