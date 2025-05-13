@@ -34,7 +34,7 @@ nav ul {
 nav li {
     cursor: pointer;
     font-family: "Russo One", sans-serif;
-    color: black;
+    color: rgba(7, 7, 7, 0.92);
     font-size: 12.8px;
 }
 
