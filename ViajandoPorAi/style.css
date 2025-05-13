@@ -61,23 +61,6 @@ nav .btn-compra:hover {
     transform: scale(1.05);
 }
 
-@media screen and (max-width: 914px) {
-    .btn-compra{
-        display: none;
-    }
-
-    nav ul {
-        margin: 0 auto;
-        gap: 12px;
-    }
-
-    nav li {
-        font-size: 10px;
-        padding: 7px;
-    }
-}
-
-
 main{
     display: flex;
     flex-direction: column;
@@ -229,5 +212,57 @@ section.module-content2 {
 
 
 /* Nao esquecer de adicionar media@ para centralizar as img no cell, adicionar botao de compra ao fim do projeto*/
+
+
+
+
+/*------------------------------------ MEDIA QUERIES -----------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+    nav .logo img {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        width: 50px;
+        height: 30px;
+    }
+    .btn-compra{
+        display: none;
+    }
+
+    nav ul {
+        margin: 0 auto;
+        gap: 12px;
+    }
+
+    nav li {
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    main{
+    background-image: url('Img2/Rio\ De\ Janeiro.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    .parallax2{
+    background-image: url('Img2/Buenos\ Aires.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
