@@ -61,6 +61,22 @@ nav .btn-compra:hover {
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 914px) {
+    .btn-compra{
+        display: none;
+    }
+
+    nav ul {
+        margin: 0 auto;
+        gap: 12px;
+    }
+
+    nav li {
+        font-size: 10px;
+    }
+}
+
+
 main{
     display: flex;
     flex-direction: column;
