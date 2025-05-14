@@ -474,7 +474,7 @@ section.module-content5 {
     }
 
     main {
-        background-image: url('/ViajandoPorAi/Img2/Rio\ De\ Janeiro.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/Rio\ De\ Janeiro.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -482,7 +482,7 @@ section.module-content5 {
     }
 
     .parallax2 {
-        background-image: url('/ViajandoPorAi/Img2/Buenos\ Aires.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/Buenos\ Aires.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -490,7 +490,7 @@ section.module-content5 {
     }
 
     .parallax3 {
-        background-image: url('/ViajandoPorAi/Img2/Cartagena\ das\ Índias.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/Cartagena\ das\ Índias.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -498,7 +498,7 @@ section.module-content5 {
     }
 
     .parallax4 {
-        background-image: url('/ViajandoPorAi/Img2/Machu\ Pichu.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/Machu\ Pichu.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -506,7 +506,7 @@ section.module-content5 {
     }
 
     .parallax5 {
-        background-image: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
