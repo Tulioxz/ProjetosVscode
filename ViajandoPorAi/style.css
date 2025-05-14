@@ -58,11 +58,11 @@ nav .btn-compra {
 }
 
 nav .btn-compra:hover {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,15 +86,15 @@ main:after {
     width: 100%;
     position: absolute;
     z-index: 8;
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #0000009d 100%);
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #0000009d 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #0000009d 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
 }
 
 .parallax1 span {
-  color: #c1de1a;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    color: #c1de1a;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .parallax1 h1 {
@@ -160,9 +160,9 @@ section.module-content {
     width: 100%;
     position: absolute;
     z-index: 8;
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #0000009d 100%);
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #0000009d 100%);
-    background: linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #0000009d 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
 }
 
 
@@ -212,9 +212,222 @@ section.module-content2 {
 }
 
 
+.parallax3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110Vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url('/ViajandoPorAi/Img2/Cartagena\ das\ Índias.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.parallax3::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+}
+
+
+
+.container3 {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    word-spacing: 5px;
+    padding: 0 20px;
+}
+
+.container3 h3 {
+    font-family: 'Playfair Display', serif;
+    color: #ee9e13;
+    font-size: 19.2px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.container3 p {
+    text-indent: 5px;
+    font-family: "Merriweather", serif;
+    color: #E6D5B8;
+    font-weight: 800;
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+section.module-content3 {
+    padding: 40px 0;
+    background: #C1440E;
+}
+
+.parallax3 h2 {
+    color: #C1440E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000;
+    margin-left: 1rem;
+}
+
+.parallax4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110Vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url('/ViajandoPorAi/Img2/Machu\ Pichu.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.parallax4::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+}
+
+
+
+.container4 {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    word-spacing: 5px;
+    padding: 0 20px;
+}
+
+.container4 h3 {
+    font-family: 'Playfair Display', serif;
+    color: #438b1f;
+    font-size: 19.2px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.container4 p {
+    text-indent: 5px;
+    font-family: "Merriweather", serif;
+    color: #4B8F29;
+    font-weight: 800;
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+section.module-content4 {
+    padding: 40px 0;
+    background: #F5EBD0;
+}
+
+.parallax4 h2 {
+    color: #DAA520;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000;
+    margin-left: 1rem;
+}
+
+.parallax5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110Vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url('/ViajandoPorAi/Img2/Patagônia.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.parallax5::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #0000009d 100%);
+}
+
+
+
+.container5 {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    word-spacing: 5px;
+    padding: 0 20px;
+}
+
+.container5 h3 {
+    font-family: 'Playfair Display', serif;
+    color: #b39d81;
+    font-size: 19.2px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.container5 p {
+    text-indent: 5px;
+    font-family: "Merriweather", serif;
+    color: #D8CAB8;
+    font-weight: 800;
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+section.module-content5 {
+    padding: 40px 0;
+    background: #63808a;
+}
+
+.parallax5 h2 {
+    color: #2A5D7C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000;
+    margin-left: 1rem;
+}
+
+.btn-mobile {
+    display: none;
+}
+
+
 /* Nao esquecer de adicionar media@ para centralizar as img no cell, adicionar botao de compra ao fim do projeto*/
-
-
 
 
 /*------------------------------------ MEDIA QUERIES -----------------------------------*/
@@ -228,9 +441,31 @@ section.module-content2 {
         width: 50px;
         height: 30px;
     }
-    .btn-compra{
+
+    .btn-compra {
         display: none;
     }
+
+    .btn-mobile {
+        display: block;
+        width: 100%;
+        height: 2rem;
+        margin-right: 8px;
+        border-radius: 2px;
+        text-align: center;
+        border: 2px solid black;
+        background: linear-gradient(135deg, #FF7E5F, #FEB47B, #FFCC70, #00C9A7);
+        background-size: 300% 300%;
+    }
+
+    .btn-mobile a {
+        text-decoration: none;   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 900;
+        font-size: 1.3rem;
+        color: white;
+    }
+
 
     nav ul {
         margin: 0 auto;
@@ -242,30 +477,19 @@ section.module-content2 {
         padding: 7px;
     }
 
-    main{
-    background-image: url('Img2/Rio\ De\ Janeiro.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    main {
+        background-image: url('Img2/Rio\ De\ Janeiro.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 
-    .parallax2{
-    background-image: url('Img2/Buenos\ Aires.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    .parallax2 {
+        background-image: url('Img2/Buenos\ Aires.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
-
 }
-
-
-
-
-
-
-
-
-
-
