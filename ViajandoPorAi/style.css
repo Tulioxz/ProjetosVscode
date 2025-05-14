@@ -455,7 +455,7 @@ section.module-content5 {
     }
 
     .btn-mobile a {
-        text-decoration: none;   
+        text-decoration: none;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 900;
         font-size: 1.3rem;
@@ -474,35 +474,35 @@ section.module-content5 {
     }
 
     main {
-        background: url('/ViajandoPorAi/Img2/RioDeJaneiro.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/RioDeJaneiro.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .parallax2 {
-        background: url('/ViajandoPorAi/Img2/BuenosAires.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/BuenosAires.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .parallax3 {
-        background: url('/ViajandoPorAi/Img2/CartagenadasÍndias.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/CartagenadasÍndias.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .parallax4 {
-        background: url('/ViajandoPorAi/Img2/MachuPichu.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/MachuPichu.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .parallax5 {
-        background: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
