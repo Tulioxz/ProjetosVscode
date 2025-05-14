@@ -475,36 +475,25 @@ section.module-content5 {
 
     main {
         background-image: url('/ViajandoPorAi/Img2/RioDeJaneiro.mobile.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .parallax2 {
         background-image: url('/ViajandoPorAi/Img2/BuenosAires.mobile.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     }
 
     .parallax3 {
         background-image: url('/ViajandoPorAi/Img2/CartagenadasÍndias.mobile.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     }
 
     .parallax4 {
         background-image: url('/ViajandoPorAi/Img2/MachuPichu.mobile.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     }
 
     .parallax5 {
         background-image: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     }
 }
