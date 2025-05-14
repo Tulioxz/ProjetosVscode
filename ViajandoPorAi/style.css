@@ -66,7 +66,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100Vh !important;
+    height: 110vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -140,7 +140,7 @@ section.module-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 110Vh;
+    height: 110vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -216,12 +216,12 @@ section.module-content2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 110Vh;
+    height: 110vh;
     width: 100%;
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('/ViajandoPorAi/Img2/CartagenadasÍndias.jpg');
+    background-image: url('Img2/CartagenadasÍndias.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -286,18 +286,18 @@ section.module-content3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 110Vh;
+    height: 110vh;
     width: 100%;
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('/ViajandoPorAi/Img2/MachuPichu.jpg');
+    background-image: url('Img2/MachuPichu.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .parallax4::after {
@@ -361,7 +361,7 @@ section.module-content4 {
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('/ViajandoPorAi/Img2/Patagônia.jpg');
+    background-image: url('Img2/Patagônia.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -474,26 +474,26 @@ section.module-content5 {
     }
 
     main {
-        background-image: url('/ViajandoPorAi/Img2/RioDeJaneiro.mobile.jpg');
+        background-image: url('Img2/RioDeJaneiro.mobile.jpg');
     }
 
     .parallax2 {
-        background-image: url('/ViajandoPorAi/Img2/BuenosAires.mobile.jpg');
+        background-image: url('Img2/BuenosAires.mobile.jpg');
 
     }
 
     .parallax3 {
-        background-image: url('/ViajandoPorAi/Img2/CartagenadasÍndias.mobile.jpg');
+        background-image: url('Img2/CartagenadasÍndias.mobile.jpg');
 
     }
 
     .parallax4 {
-        background-image: url('/ViajandoPorAi/Img2/MachuPichu.mobile.jpg');
+        background-image: url('Img2/MachuPichu.mobile.jpg');
 
     }
 
     .parallax5 {
-        background-image: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
+        background-image: url('Img2/Patagônia.mobile.jpg');
 
     }
 }
