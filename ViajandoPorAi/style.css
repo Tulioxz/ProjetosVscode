@@ -426,10 +426,6 @@ section.module-content5 {
     display: none;
 }
 
-
-/* Nao esquecer de adicionar media@ para centralizar as img no cell, adicionar botao de compra ao fim do projeto*/
-
-
 /*------------------------------------ MEDIA QUERIES -----------------------------------*/
 
 @media screen and (max-width: 768px) {
@@ -478,7 +474,7 @@ section.module-content5 {
     }
 
     main {
-        background-image: url('Img2/Rio\ De\ Janeiro.jpg');
+        background-image: url('/ViajandoPorAi/Img2/Rio\ De\ Janeiro.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -486,7 +482,31 @@ section.module-content5 {
     }
 
     .parallax2 {
-        background-image: url('Img2/Buenos\ Aires.jpg');
+        background-image: url('/ViajandoPorAi/Img2/Buenos\ Aires.mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .parallax3 {
+        background-image: url('/ViajandoPorAi/Img2/Cartagena\ das\ Índias.mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .parallax4 {
+        background-image: url('/ViajandoPorAi/Img2/Machu\ Pichu.mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .parallax5 {
+        background-image: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
