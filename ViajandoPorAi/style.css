@@ -474,34 +474,30 @@ section.module-content5 {
     }
 
     main {
-        background: url('/ViajandoPorAi/Img2/Rio\ De\ Janeiro.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/RioDeJaneiro.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: cover;
     }
 
     .parallax2 {
-        background: url('/ViajandoPorAi/Img2/Buenos\ Aires.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/BuenosAires.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: cover;
     }
 
     .parallax3 {
-        background: url('/ViajandoPorAi/Img2/Cartagena\ das\ Índias.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/CartagenadasÍndias.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: cover;
     }
 
     .parallax4 {
-        background: url('/ViajandoPorAi/Img2/Machu\ Pichu.mobile.jpg');
+        background: url('/ViajandoPorAi/Img2/MachuPichu.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: cover;
     }
 
@@ -509,7 +505,6 @@ section.module-content5 {
         background: url('/ViajandoPorAi/Img2/Patagônia.mobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: cover;
     }
 }
