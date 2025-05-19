@@ -477,34 +477,29 @@ section.module-content5 {
         background-image: url('Img2/RioDeJaneiro.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
     }
 
     .parallax2 {
         background-image: url('Img2/BuenosAires.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
     }
 
     .parallax3 {
         background-image: url('Img2/CartagenadasÍndias.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
     }
 
     .parallax4 {
         background-image: url('Img2/MachuPichu.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
     }
 
     .parallax5 {
         background-image: url('Img2/Patagônia.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
     }
 }
