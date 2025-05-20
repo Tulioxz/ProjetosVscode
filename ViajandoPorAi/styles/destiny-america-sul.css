@@ -9,14 +9,16 @@
 nav {
     height: 48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 100%;
     z-index: 100;
 }
 
 nav .logo img {
-    height: 48px;
+    margin-top: 10px;
+    height: 70px;
     width: 125px;
 }
 
@@ -30,6 +32,7 @@ nav ul {
     align-items: center;
     gap: 16px;
     list-style: none;
+    margin-left: 16px;
 }
 
 nav a {
@@ -43,19 +46,6 @@ nav a:hover {
     font-size: 14px;
 }
 
-nav .btn-compra {
-    width: 192px;
-    height: 24px;
-    cursor: pointer;
-    align-self: center;
-    margin-right: 8px;
-    font-size: 11.2px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 5px;
-    background: linear-gradient(135deg, #FF7E5F, #FEB47B, #FFCC70, #00C9A7);
-    background-size: 300% 300%;
-}
 
 nav .btn-compra:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -71,7 +61,7 @@ main {
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('Img2/Rio\ De\ Janeiro.jpg');
+    background-image: url('/ViajandoPorAi/Img2/Rio\ De\ Janeiro.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -145,7 +135,7 @@ section.module-content {
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('Img2/Buenos\ Aires.jpg');
+    background-image: url('/ViajandoPorAi/Img2/Buenos\ Aires.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -221,7 +211,7 @@ section.module-content2 {
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('Img2/CartagenadasÍndias.jpg');
+    background-image: url('/ViajandoPorAi/Img2/CartagenadasÍndias.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -291,7 +281,7 @@ section.module-content3 {
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('Img2/MachuPichu.jpg');
+    background-image: url('/ViajandoPorAi/Img2/MachuPichu.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -361,7 +351,7 @@ section.module-content4 {
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
-    background-image: url('Img2/Patagônia.jpg');
+    background-image: url('/ViajandoPorAi/Img2/Patagônia.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -474,35 +464,35 @@ section.module-content5 {
     }
 
     main {
-        background-image: url('Img2/RioDeJaneiro.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/RioDeJaneiro.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: inherit;
     }
 
     .parallax2 {
-        background-image: url('Img2/BuenosAires.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/BuenosAires.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: inherit;
     }
 
     .parallax3 {
-        background-image: url('Img2/CartagenadasÍndias.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/CartagenadasÍndias.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: inherit;
     }
 
     .parallax4 {
-        background-image: url('Img2/MachuPichu.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/MachuPichu.mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: inherit;
     }
 
     .parallax5 {
-        background-image: url('Img2/Patagônia.mobile.jpg');
+        background-image: url('/ViajandoPorAi/Img2/Patagônia.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: inherit;
