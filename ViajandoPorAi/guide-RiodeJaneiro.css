@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/ViajandoPorAi/Img2/backRio2.jpg') no-repeat center/cover;
+    opacity: 95%;
+}
+
+main .img1 {
+    max-height: 100%;
+    width: 25%;
+}
+
+main .img2 {
+    height: 100%;
+    width: 25%;
+}
+
+main .img3 {
+    height: 100%;
+    width: 25%;
+}
+
+main .img4 {
+    height: 100%;
+    width: 25%;
+}
+
+.img1 h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #b65dd1;
+    margin: 40px 20px;
+}
+
+.img1 p {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    text-indent: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    line-height: 21px;
+    margin: 10px 10px;
+}
+
+.img1 .highlight {
+    color: #00ffa6;
+    font-weight: bold;
+}
+
+.img2 h2 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #297e9e;
+    margin: 40px 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.img2 p {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    text-indent: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    line-height: 21px;
+    margin: 10px 10px;
+}
+
+.img2 .highlight {
+    color: #00ffa6;
+    font-weight: bold;
+}
+
+.img3 h2 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #b65dd1cb;
+    margin: 40px 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.img3 p {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    text-indent: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    line-height: 21px;
+    margin: 10px 10px;
+}
+
+.img3 .highlight {
+    color: #00ffa6;
+    font-weight: bold;
+}
+
+.img4 h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #297f9ea5;
+    margin: 40px 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.img4 p {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    text-indent: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    line-height: 21px;
+    margin: 10px 10px;
+}
+
+.img4 .highlight {
+    color: #00ffa6;
+    font-weight: bold;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+    padding: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer a {
+    font-size: 2rem;
+}
+
+footer a:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    color: white;
+    height: 5vh;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+    padding: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
