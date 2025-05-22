@@ -7,12 +7,13 @@
 }
 
 nav {
-    height: 48px;
+    height: 140px;
     display: inline-block;
     justify-content: center;
     position: relative;
     width: 100%;
     z-index: 100;
+    background-color: transparent;
 }
 
 nav .logo img {
@@ -23,7 +24,7 @@ nav .logo img {
     width: 125px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: black;
+    background-color: transparent;
     border-radius: 50%;
 }
 
@@ -153,13 +154,12 @@ nav a:hover {
     color: white;
     width: 420px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 999;
     position: relative;
     border-radius: 10px;
-    background-color: #000;
+    background-color: transparent;
 }
 
 .form h1 {
@@ -214,11 +214,10 @@ footer {
     left: 0;
     width: 100%;
     color: white;
-    background-color: #000000;
+    background-color: transparent;
     padding: 1rem;
     text-align: center;
     font-family: sans-serif;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 

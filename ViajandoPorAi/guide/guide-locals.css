@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    color: #eee;
+    font-size: 12px;
+}
+
+header {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin-left: 5px;
+}
+
+header a {
+    font-size: 15px;
+    font-weight: 300;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 5px;
+    color: #FF7E5F;
+    font-family: "Russo One", sans-serif;
+    background-color: #00000042;
+}
+
+header a:hover {
+    background-color: #FF7E5F;
+    color: #eee;
+}
+
+.container {
+    height: 100vh;
+    width: 90vw;
+    margin-top: -50px;
+    overflow: hidden !important;
+}
+
+.container .list .list-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container .list .list-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(50%);
+}
+
+.container .list .list-item .content {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+    text-shadow: 0 5px 10px #0004;
+}
+
+.container .list .list-item .title {
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.3rem;
+    margin-bottom: 50px;
+}
+
+.container .list .list-item .description {
+    font-size: 2rem;
+    font-weight: 300;
+    text-indent: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 6px solid #00b4d8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container .tumb {
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    display: flex;
+    gap: 20px;
+}
+
+.container .tumb .tumb-item {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    z-index: 3;
+}
+
+.container .tumb .tumb-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+
+.container .tumb .content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.container .arrows {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 300px;
+    left: 20%;
+    width: 300px;
+}
+
+.container .arrows button {
+    border-radius: 10px;
+    border: none;
+    padding: 12px 17px;
+    background-color: #eee4;
+    color: #eee;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.container .arrows button:hover {
+    background-color: #eee;
+    color: #eee;
+    transition: 0.7s;
+}
+
+
+
+.container.next .tumb {
+    animation: effectNextThumb 0.5s linear 1 forwards;
+}
+
+
+@keyframes effectNextThumb {
+    from {
+        transform: translateX(100px);
+    }
+}
+
+
+.container.next .tumb .tumb-item:nth-last-child(0) {
+    animation: effectLastThumb 0.5 linear 1 forwards;
+}
+
+@keyframes effectLastThumb {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+
+}
+
+
+/*Textos Principais*/
+
+
+.container .list .list-item:nth-last-child(1) .content .title,
+.container .list .list-item:nth-last-child(1) .content .description {
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 1s linear 1 forwards;
+}
+
+@keyframes showContent {
+    to {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.container .list .list-item:nth-last-child(1) .content .title {
+    animation-delay: 1, 2s;
+}
+
+.container .list .list-item:nth-last-child(1) .content .description {
+    animation-delay: 1.6;
+}
+
+
+.container.back .list .list-item:nth-last-child(1) img {
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    border-radius: 30px;
+    animation: showMainImage 0.5s linear 1 forwards;
+}
+
+@keyframes showMainImage {
+    to {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+
+
+.container.next .list .list-item:nth-child(1) img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: hideMainImage 0.5s linear 1 forwards;
+    z-index: 2;
+}
+
+@keyframes hideMainImage {
+    to {
+        width: 250px;
+        height: 200px;
+        border-radius: 30px;
+        left: 20%;
+        bottom: 50px;
+    }
+}
